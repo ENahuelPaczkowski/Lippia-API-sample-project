@@ -1,4 +1,3 @@
-@prueba
 Feature: Workspace
   COMO usuario de Clockify
   QUIERO ver las configuraciones de mi Worckspace

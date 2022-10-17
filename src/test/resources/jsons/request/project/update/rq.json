@@ -1,0 +1,20 @@
+{
+  "url": "https://api.clockify.me/api/v1",
+  "headers": {
+    "Content-Type": "application/json",
+    "X-Api-Key": "{{api-key}}"
+  },
+  "body": {
+    "name": "{{name}}",
+    "clientId": "",
+    "isPublic": "false",
+    "hourlyRate": {
+      "amount": 3600
+    },
+    "color": "#f44336",
+    "note": "This is project's note (optional)",
+    "billable": "true",
+    "archived": "true"
+  },
+  "endpoint": "/workspaces/{{wSpace}}/projects/{{projectId}}"
+}

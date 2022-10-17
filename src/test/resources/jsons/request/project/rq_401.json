@@ -1,0 +1,8 @@
+{
+  "url": "https://api.clockify.me/api/v1",
+  "headers": {
+    "Content-Type": "application/json",
+    "X-Api-Key": "YTZkYTVkM2MtOGFjNS00ZjZiLWFhNDUtMDU5NzE4NDAzZDk"
+  },
+  "endpoint": "/workspaces/{{wSpace}}/projects"
+}
